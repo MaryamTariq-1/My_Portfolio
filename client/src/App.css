@@ -1,0 +1,88 @@
+/* === Root Layout === */
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* === Global Body Styles === */
+body {
+  font-family: 'Inter', 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #1f2937; /* slate-800 */
+  scroll-behavior: smooth;
+  line-height: 1.6;
+}
+
+/* === Section Smooth Reveal & Scroll Padding === */
+section {
+  scroll-margin-top: 80px;
+  transition: all 0.4s ease-in-out;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* === Typography Highlights === */
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+h2 {
+  color: #4338ca; /* indigo-700 */
+}
+
+/* === Card Reusability === */
+.card {
+  padding: 2rem;
+  border-radius: 1.25rem;
+  background-color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* === Button & Input Consistency === */
+button,
+input,
+textarea {
+  font-family: inherit;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #6366f1; /* indigo-500 */
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+}
+
+button {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* === Footer Styling Enhancement === */
+footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid #e5e7eb; /* gray-200 */
+}
+
+/* === Text Selection Custom Color === */
+::selection {
+  background: #c7d2fe; /* indigo-200 */
+  color: #1e1b4b; /* dark text */
+}
+
+/* === Read the Docs (optional class) === */
+.read-the-docs {
+  color: #888;
+  font-size: 0.9rem;
+}
