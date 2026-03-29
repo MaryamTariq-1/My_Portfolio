@@ -21,12 +21,13 @@ export function AboutSection() {
         <div className="about-visual card">
           <div className="about-photo-wrap">
             <Image
-              src="/images/profile.jfif"
+              src={siteConfig.profileImageUrl}
               alt={siteConfig.name}
               width={280}
               height={280}
               className="about-photo"
               sizes="(max-width: 860px) 100vw, 280px"
+              unoptimized
             />
           </div>
           <p className="section-label">CV</p>

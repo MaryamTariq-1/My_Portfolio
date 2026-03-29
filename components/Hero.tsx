@@ -8,13 +8,14 @@ export function Hero() {
         <div className="hero__photo-row">
           <div className="hero__photo-frame">
             <Image
-              src="/images/profile.jfif"
+              src={siteConfig.profileImageUrl}
               alt={siteConfig.name}
               width={200}
               height={200}
               className="hero__photo-img"
               priority
               sizes="(max-width: 860px) 160px, 200px"
+              unoptimized
             />
           </div>
         </div>
