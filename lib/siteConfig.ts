@@ -7,7 +7,7 @@ export const siteConfig = {
     "I build data-driven solutions, secure REST APIs, and MERN applications with practical AI integration. Currently working as a Data Scientist in Residence in Paris and teaching as a Visiting Lecturer.",
   email: "marymughal216@gmail.com",
   location: "Pakistan · open to remote roles",
-  profileImageUrl: "https://drive.google.com/uc?export=view&id=1PkLyIjkYvXVW0JJzyaDgerDgutPUJSY8",
+  profileImageUrl: "https://lh3.googleusercontent.com/d/1PkLyIjkYvXVW0JJzyaDgerDgutPUJSY8=w400",
   cvUrl:
     "https://drive.google.com/file/d/10w-1tKakvqlJPxBVEko6QUMVM1EZeMmm/view?usp=sharing",
   githubReposUrl: "https://github.com/MaryamTariq-1?tab=repositories",
